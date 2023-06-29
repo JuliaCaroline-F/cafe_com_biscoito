@@ -1,0 +1,115 @@
+@media only screen and ( max-width: 500px){
+    h4{
+    font-size: 1rem;
+}
+#apresentacao{
+    text-align: center;
+    padding-top: 5vh;
+    
+}
+
+}
+@media only screen and ( min-width: 800px){
+
+    #texto{
+        width: 70vw;
+        text-align: justify;
+        line-height: 30px;
+    }
+    #texto-equipe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+        
+    }
+    #equipe{
+        background-color: rgb(191, 69, 248);
+        margin-bottom: 15px;
+        margin-left: 15px;
+        padding:  15%;
+        text-align: justify;
+    }
+    #imagem{
+        margin-left: 15px;
+    }
+    h2{
+     text-align: center;
+     padding-top: 2%;
+    }
+    #apresentacao{
+        text-align: center;
+        padding-top: 17vh;
+        
+    }
+}
+body{
+    background-color: black;
+   }
+   #apresentacao{
+    text-align: center;
+    padding-top: 5vh;
+    
+}
+#caf{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(191, 69, 248);
+    align-items: center; 
+    color: black;
+    height: 10vh;
+    align-content: center;
+    margin: -1%;  
+ }
+ #subb{
+     color: rgb(255, 255, 255); 
+     font-size: 2em;
+     text-align: center;
+     font-family: cursive;
+     padding-left: 2vw;
+ }
+ .barra-de-nav{
+     width: 80vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none; 
+     padding-right: 2vw;
+ 
+ }  
+ a{ 
+     text-decoration: none;
+     color: black;
+ }
+ ul, 
+ li, 
+ p{
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+     flex-direction: row;
+     text-align: center;
+     color: ghostwhite;
+ }
+ li{
+     margin: 1vw;
+     font-size:13px;
+ }
+ .menu{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     font-style: normal;
+     align-items: center;
+ }
+
+
+h2{
+    color: ghostwhite;
+    text-align: justify ;
+    margin-left: 5%;
+}

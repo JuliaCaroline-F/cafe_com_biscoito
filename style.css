@@ -1,0 +1,210 @@
+@media only screen and ( max-width: 500px){ 
+    .fanart2{
+        display: none;
+    }
+    .fanart3{
+        display: none;
+    }
+    #subtexto{
+        display: none;
+    }
+    .resenha2{
+        display: none;
+    }
+    .resenha3{
+        display: none;
+    }
+    #notificacao{
+        display: none;
+    }#pesquisa{
+            display: none;
+        }
+    h4{
+            font-size: 1rem;
+        }
+        #iten{
+            display: none;
+        }
+   }
+@media only screen and ( max-width: 1000px){ 
+
+    .fanart3{
+        display: none;
+    }
+   
+    .resenha3{
+        display: none;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    
+   }
+@media only screen and ( min-width: 500px){ 
+    #pesquisa{
+            width: 20px;
+        }
+    #pesquisa1{
+            display: none;
+        }
+    #notificacao{
+        width: 20px;
+    }
+    #notificacao1{
+        display: none;
+    }
+
+    .flex-cabecalho{
+    display: flex;
+    justify-content: center;
+    }
+} 
+
+
+
+
+body{
+    background-color: black;
+   }
+
+   
+.flex-cabecalho{
+    margin: -1%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+#logo1 {
+    width: 10vw;
+}
+#cabecalho{
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 3vw;
+}
+#pesquisa{
+    width: 50px;
+}
+#notificacao{
+    width: 60px;
+}
+#subtexto{
+    background-color: rgb(191, 69, 248);
+    margin: -1%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1vh;
+    border-bottom: solid #353535 1px;border-top: solid #353535 1px; 
+    margin-bottom: 1px;
+}
+#sub{
+    color: #090709;
+}
+#caf{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   background-color: rgb(191, 69, 248);
+   align-items: center; 
+   color: black;
+   height: 10vh;
+   align-content: center;
+   margin: -1%;  
+}
+#subb{
+    color: rgb(255, 255, 255); 
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+    padding-left: 2vw;
+}
+.barra-de-nav{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    padding-right: 2vw;
+
+}  
+a{ 
+    text-decoration: none;
+    color: black;
+}
+ul, 
+li, 
+p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: row;
+    text-align: center;
+    color: ghostwhite;
+    
+}
+li{
+    margin: 1vw;
+    font-size:13px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-style: normal;
+    align-items: center;
+}
+
+
+#resenhascatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 50px;
+    
+}
+#resenhasimgs{
+    display: flex;
+    flex-direction: row;
+}
+.resenha .resenha2 .resenha3{
+    width: 40rem;
+    margin: 1px; 
+}
+
+
+
+#fanartscatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 50px;
+    align-items: center;
+
+}
+#fanartsimgs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+}
+.fanart .fanart2 .fanart3{    
+        width: 40rem;
+        margin: 1px; 
+    }
+
+
+
+
+   
